@@ -1,0 +1,29 @@
+
+spring.security.oauth2.client.registration.google:
+  client-id: 488015176686-kik4llm9r5h9jmgv8mh1e2ehhuvhbr0a.apps.googleusercontent.com
+  client-secret: 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
+
+spring.security.oauth2.client.registration.github:
+  client-id: 4f9d03d484714ea2d9af7cbb5c0a8dd1625e468b
+  client-secret: 01f9960547a48fdb1e74
+
+spring.security.oauth2:
+  client:
+    accessTokenUrl: https://github.com/login/oauth/access_token
+    clientAuthenticationUri: https://github.com/login/oauth/authorize
+    clientAuthenticationScheme: form
+    tokenName: oauth_token
+    authenticationScheme: query
+  resourse:
+    userInfoUri: https://api.github.com/user
+
+
+
+
+#  Google Credentials
+#  client-id : 488015176686-kik4llm9r5h9jmgv8mh1e2ehhuvhbr0a.apps.googleusercontent.com
+#  secret : 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
+#
+#  GitHub Credentials
+#  client-id : 4f9d03d484714ea2d9af7cbb5c0a8dd1625e468b
+#  secret  : 01f9960547a48fdb1e74
